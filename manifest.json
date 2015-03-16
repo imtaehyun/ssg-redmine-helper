@@ -1,0 +1,29 @@
+{
+	// Required
+	"manifest_version": 2, // 항상 2로 고정 
+	
+	"name": "SSG Redmine Helper",
+	"description": "SSG Redmine Helper",
+	"version": "0.2",
+
+	// "background": { "page": "background.html" },
+	"options_page": "options.html",
+
+	"browser_action": {
+		"default_title": "SSG Redmine Helper",
+		"default_icon": "images/icon_128x128.png",
+		"default_popup": "popup.html"
+	},
+
+	// "content_scripts": [
+	// 	{
+	// 		"js": ["js/jquery.min.js", "js/ssg_redmine_ext.js"],
+	// 		"matches": ["http://redmine.ssgadm.com/*"]
+	// 	}
+	// ],
+
+	"permissions": [
+		"activeTab",
+		"storage"
+	]
+}

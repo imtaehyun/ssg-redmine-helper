@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>SSG Redmine Helper Option Page</title>
+	<link rel="stylesheet" href="dist/semantic.css">
+</head>
+<body>
+	<div class="ui vertical segment">
+		<form class="ui page grid form">
+			<div class="row">
+				<div class="column">
+					<h4 class="ui dividing header">변수설정</h4>
+					<div class="two fields">
+						<div class="field">
+							<label for="taskNo">Task 번호</label>
+							<input type="text" name="taskNo" placeholder="Task 번호">
+						</div>
+						<div class="field">
+							<label for="csNo">CS 번호</label>
+							<input type="text" name="csNo" placeholder="CS 번호">
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="column">
+					<div id="saveOption" class="ui primary button">
+						Save
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/options.js"></script>
+</body>
+</html>
